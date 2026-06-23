@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Birthday, Karlis</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body {
+      width: 100%;
+      min-height: 100vh;
+      background: linear-gradient(150deg, #ebb8cc 0%, #d9a4bc 60%, #c994b0 100%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: 'Courier New', monospace;
+      overflow: hidden;
+      position: relative;
+    }
+    .ghost {
+      position: fixed;
+      font-size: 80vw;
+      font-weight: 700;
+      color: rgba(255,255,255,0.07);
+      bottom: -15vw;
+      right: -10vw;
+      line-height: 1;
+      pointer-events: none;
+      user-select: none;
+      z-index: 0;
+    }
+    .card {
+      position: relative;
+      z-index: 10;
+      padding: 10vw;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      min-height: 100vh;
+      width: 100%;
+    }
+    .label {
+      font-size: 2.8vw;
+      letter-spacing: 3px;
+      color: rgba(80,35,65,0.45);
+      text-transform: uppercase;
+    }
+    .divider {
+      width: 40px;
+      height: 1px;
+      background: rgba(80,35,65,0.3);
+      margin-top: 16px;
+    }
+    .text {
+      font-size: 4.8vw;
+      color: #160e0c;
+      line-height: 2;
+      letter-spacing: 0.3px;
+      flex: 1;
+      display: flex;
+      align-items: center;
+      padding: 8vw 0;
+    }
+    .sig-block {
+      text-align: right;
+    }
+    .sig-dash {
+      font-size: 3.5vw;
+      letter-spacing: 2px;
+      color: rgba(80,35,65,0.5);
+    }
+    .sig {
+      font-size: 6vw;
+      font-weight: 700;
+      letter-spacing: 5px;
+      color: #160e0c;
+      margin-top: 6px;
+    }
+  </style>
+</head>
+<body>
+  <div class="ghost">K</div>
+  <div class="card">
+    <div>
+      <div class="label">Two Korrespondence · 2025–2026</div>
+      <div class="divider"></div>
+    </div>
+    <div class="text">
+      <div>
+        Happy 27th birthday, Karlis.<br><br>
+        This is my very first book,<br>
+        and also one of the gifts<br>
+        I want to give you.<br><br>
+        Thank you for always supporting me,<br>
+        encouraging me, and believing in me<br>
+        in your own gentle way.<br><br>
+        I hope you will like this book —<br>
+        a book that belongs to you,<br>
+        to me, and to us.
+      </div>
+    </div>
+    <div class="sig-block">
+      <div class="sig-dash">——</div>
+      <div class="sig">TU RAN</div>
+    </div>
+  </div>
+</body>
+</html>
