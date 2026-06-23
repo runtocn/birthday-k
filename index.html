@@ -10,11 +10,7 @@
       width: 100%;
       min-height: 100vh;
       background: linear-gradient(150deg, #ebb8cc 0%, #d9a4bc 60%, #c994b0 100%);
-      display: flex;
-      justify-content: center;
-      align-items: center;
       font-family: 'Courier New', monospace;
-      overflow: hidden;
       position: relative;
     }
     .ghost {
@@ -22,8 +18,8 @@
       font-size: 80vw;
       font-weight: 700;
       color: rgba(255,255,255,0.07);
-      bottom: -15vw;
-      right: -10vw;
+      bottom: -10vw;
+      right: -8vw;
       line-height: 1;
       pointer-events: none;
       user-select: none;
@@ -32,72 +28,71 @@
     .card {
       position: relative;
       z-index: 10;
-      padding: 10vw;
+      padding: 10vw 8vw;
+      min-height: 100vh;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
-      min-height: 100vh;
-      width: 100%;
+    }
+    .top {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
     }
     .label {
-      font-size: 2.8vw;
-      letter-spacing: 3px;
+      font-size: 2.4vw;
+      letter-spacing: 2px;
       color: rgba(80,35,65,0.45);
       text-transform: uppercase;
     }
     .divider {
-      width: 40px;
+      width: 32px;
       height: 1px;
       background: rgba(80,35,65,0.3);
-      margin-top: 16px;
     }
     .text {
-      font-size: 4.8vw;
+      font-size: 3.8vw;
       color: #160e0c;
-      line-height: 2;
-      letter-spacing: 0.3px;
+      line-height: 1.9;
+      padding: 6vw 0;
       flex: 1;
-      display: flex;
-      align-items: center;
-      padding: 8vw 0;
     }
     .sig-block {
       text-align: right;
+      padding-bottom: 4vw;
     }
     .sig-dash {
-      font-size: 3.5vw;
+      font-size: 3vw;
       letter-spacing: 2px;
       color: rgba(80,35,65,0.5);
     }
     .sig {
-      font-size: 6vw;
+      font-size: 5.5vw;
       font-weight: 700;
       letter-spacing: 5px;
       color: #160e0c;
-      margin-top: 6px;
+      margin-top: 4px;
     }
   </style>
 </head>
 <body>
   <div class="ghost">K</div>
   <div class="card">
-    <div>
+    <div class="top">
       <div class="label">Two Korrespondence · 2025–2026</div>
       <div class="divider"></div>
     </div>
     <div class="text">
-      <div>
-        Happy 27th birthday, Karlis.<br><br>
-        This is my very first book,<br>
-        and also one of the gifts<br>
-        I want to give you.<br><br>
-        Thank you for always supporting me,<br>
-        encouraging me, and believing in me<br>
-        in your own gentle way.<br><br>
-        I hope you will like this book —<br>
-        a book that belongs to you,<br>
-        to me, and to us.
-      </div>
+      Happy 27th birthday, Karlis.<br><br>
+      This is my very first book,<br>
+      and also one of the gifts<br>
+      I want to give you.<br><br>
+      Thank you for always supporting me,<br>
+      encouraging me, and believing in me<br>
+      in your own gentle way.<br><br>
+      I hope you will like this book —<br>
+      a book that belongs to you,<br>
+      to me, and to us.
     </div>
     <div class="sig-block">
       <div class="sig-dash">——</div>
